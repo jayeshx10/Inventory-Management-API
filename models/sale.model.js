@@ -5,5 +5,5 @@ const saleSchema = new mongoose.Schema({
   amount: Number,
 })
 
-const sale = mongoose.model('sale', saleSchema);
-module.exports = sale;
+const Sale = mongoose.model('sale', saleSchema);
+module.exports = Sale;
