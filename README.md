@@ -3,29 +3,31 @@ This Express.js application, powered by Mongoose, provides a robust and scalable
 
 ## API Endpoints
 ### 1. Adding an Item to Inventory
-- Endpoint: /items
+- Endpoint: `/items`
 - Method: POST
 - Description: Allows users to add a new item to the inventory.
 - Request Body:
-    name (string, required): Name of the item.
-    quantity (integer, required): Quantity of the item.
-    price (float, required): Price of the item.
-          
+  
+        name (string, required): Name of the item.
+        quantity (integer, required): Quantity of the item.
+        price (float, required): Price of the item.
+
 ### 2. Fetching Items from Inventory
-- Endpoint: /items
+- Endpoint: `/items`
 - Method: GET
 - Description: Retrieves a list of all items in the inventory.
       
 ### 3. Adding a Sale
-- Endpoint: /sales
+- Endpoint: `/sales`
 - Method: POST
 - Description: Allows users to add a new sale.
 - Request Body:
-    description (string, required): Description of the sale.
-    amount (float, required): Amount of the sale.
+  
+        description (string, required): Description of the sale.
+        amount (float, required): Amount of the sale.
           
 ### 4. Fetching Sales
-- Endpoint: /sales
+- Endpoint: `/sales`
 - Method: GET
 - Description: Retrieves a list of all sales.
       
