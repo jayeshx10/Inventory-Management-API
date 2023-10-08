@@ -45,9 +45,6 @@ This Express.js application, powered by Mongoose, provides a robust and scalable
 - Express.js: Minimal and flexible Node.js web application framework.
 - Mongoose: Elegant MongoDB object modeling for Node.js.
 - RESTful Architecture: Follows best practices for designing RESTful APIs.
-
-## Documentation
-[View the entire documentation here](https://documenter.getpostman.com/view/29099763/2s9YJdV2A8)
   
 ## Contributing
 Contributions are welcome! Feel free to open an issue or create a pull request for any improvements or features you'd like to add.
